@@ -1,18 +1,19 @@
-# _Accessible Form_
+# _Asynchronous Code in Express_
 
-#### _An Accessible Form built with HTML and CSS. September 2020_
+#### _This is a small project that demonstrates three approaches to handling asynchronous operations in Express: callbacks, promises, and async/await. October 2020_
 
 ## Description
 
-_This project comes from the "Accessibility For Web Developers" for [Treehouse](https://teamtreehouse.com/). It currently does not have any backend language to make it functional._
+_This project comes from the course "Asynchronous Code in Express" for [Treehouse](https://teamtreehouse.com/).
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-* _A folder titled "accessible_form" will appear._
-* _Click into the folder and open the file titled "index.html"_
-* _Enjoy the form!_
+* _A folder titled "callbacks" will appear._
+* _Run 'npm install' to install the dependencies and then 'npm start' to start the server_
+* _In your browser, go to localhost:3000_
+*_Enjoy the program!_
 
 ## Technologies Used
 
-_HTML, CSS_
+_HTML, CSS, JavaScript, Express_
