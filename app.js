@@ -41,14 +41,23 @@ function getUsers(){
   });
 }
 
-app.get('/', (req,res) => {
-  getUsers()
-  .then((users)=> {
+// app.get('/', (req,res) => {
+//   getUsers()
+//   .then((users)=> {
+//     res.render('index', {title: "Users:", users: users.users});
+//   })
+//   .catch(()=> {
+//     res.render('error', {error: err});
+//   })
+// });
+
+app.get('/', async (req,res) => {
+  try {
+    const users = await getUsers();
     res.render('index', {title: "Users:", users: users.users});
-  })
-  .catch(()=> {
+  } catch(err) {
     res.render('error', {error: err});
-  })
+  }
 });
 
 
