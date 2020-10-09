@@ -9,7 +9,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static('public'));
 
 function asyncHandler(cb){
-  return async(req, res,next)=> {
+  return async (req,res,next)=> {
     try {
       await cb(req,res,next);
     } catch(err){
@@ -62,12 +62,10 @@ function getUsers(){
 //   })
 // });
 
-app.get('/', ayncHandler(async (req,res) => {
+// ASYNC/AWAIT
+app.get('/', asyncHandler(async (req,res) => {
     const users = await getUsers();
-    res.render('index', {title: "Users:", users: users.users});
+    res.render('index', {title: "Users", users: users.users});
 }));
-
-
-
 
 app.listen(3000, () => console.log('App listening on port 3000!'));
