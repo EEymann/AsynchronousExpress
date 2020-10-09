@@ -18,8 +18,14 @@ function getUsers(cb){
 }
 
 app.get('/', (req,res) => {
-  
-}); 
+  getUsers((err, users)=>{
+    if(err){
+      res.render('error', {error:err});
+    } else {
+      res.render('index', {title: "Users", users: users.users})
+    }
+  });
+});
 
 
 app.listen(3000, () => console.log('App listening on port 3000!'));
