@@ -2,27 +2,27 @@
   "users": [
     {
       "id": 1,
-      "name": "Dean Winchester",
-      "username": "Impala67",
-      "bio": "Renown ghost hunter"
+      "name": "Liz E",
+      "username": "LizLettuce",
+      "bio": "Web Developer"
     },
     {
       "id": 2,
-      "name": "Charles",
-      "username": "silverpothos4ever",
-      "bio": "A majestic houseplant who lives in the Treehouse office"
+      "name": "Winston",
+      "username": "SillyOldCloud",
+      "bio": "A soft cloud-shaped pillow who likes to sleep."
     },
     {
       "id": 3,
-      "name": "Bugs Bunny",
-      "username": "bugs1234",
-      "bio": "A famous carrot enthusiast"
+      "name": "Peppy",
+      "username": "Pepperonia",
+      "bio": "A cute little houseplant who lives in Liz's office"
     },
     {
       "id": 4,
-      "name": "Squash",
-      "username": "kingcharlesdog",
-      "bio": "The cutest office dog at Treehouse"
+      "name": "Bobby Dog",
+      "username": "RedNosePitbull",
+      "bio": "Professional Good Boy."
     }
   ]
 }
