@@ -4,7 +4,7 @@
 
 ## Description
 
-_This project comes from the course "Asynchronous Code in Express" for [Treehouse](https://teamtreehouse.com_ _
+_This project comes from the course "Asynchronous Code in Express" for [Treehouse](https://teamtreehouse.com)_
 
 ## Setup/Installation Requirements
 
@@ -12,7 +12,7 @@ _This project comes from the course "Asynchronous Code in Express" for [Treehous
 * _A folder titled "callbacks" will appear._
 * _Run 'npm install' to install the dependencies and then 'npm start' to start the server_
 * _In your browser, go to localhost:3000_
-*_Enjoy the program!_
+* _Enjoy the program!_
 
 ## Technologies Used
 
