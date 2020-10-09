@@ -4,7 +4,7 @@
 
 ## Description
 
-_This project comes from the course "Asynchronous Code in Express" for [Treehouse](https://teamtreehouse.com/).
+_This project comes from the course "Asynchronous Code in Express" for [Treehouse](https://teamtreehouse.com_ _
 
 ## Setup/Installation Requirements
 
